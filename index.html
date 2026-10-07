@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cogniverge ’26 — Where Ideas Converge, Innovation Emerges</title>
+  <meta name="description" content="Explore Cogniverge ’26 at MGIT: Tech Pictionary, UI/UX Design, Project Expo, Byte Hunt, and Prompt and Panic." />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#home" aria-label="Cogniverge home"><img class="brand-image" src="assets/cogniverge-logo.jpeg" alt="Cogniverge ’26" width="220" height="61" /></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="#team">The team</a>
+        <a class="btn btn-sm register-nav" href="#register">Registration <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+      </nav>
+      <button class="btn btn-icon menu-button" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation" hidden>
+      <a href="#home">Home</a><a href="#events">Events</a><a href="#team">The team</a><a href="#register">Registration</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-image" src="assets/convergence.jpg" alt="A sculptural network of connected ideas" width="1536" height="1024" fetchpriority="high" />
+      <div class="wrap hero-content">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> MGIT · Department of Emerging Technologies</p>
+        <h1>COGNIVERGE<span> ’26</span></h1>
+        <p class="hero-tagline">Where Ideas Converge,<br />Innovation Emerges.</p>
+        <p class="hero-description">For the curious minds. The bold ideas.<br />And everything we can create together.</p>
+        <div class="hero-actions">
+          <a class="btn btn-lg" href="#events">Explore events <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+          <a class="btn btn-lg btn-outline" href="#team">Meet the team</a>
+        </div>
+        <div class="hero-bottom">
+          <p>Mahatma Gandhi Institute of Technology<br />CSE – Artificial Intelligence &amp; Machine Learning</p>
+          <a class="hero-scroll" href="#events"><span>Discover what’s ahead</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="events-section">
+      <div class="wrap section">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 / The lineup</p><h2>Event Ladder</h2></div>
+          <p class="section-note">Five technical events.<br />Find your spark. Make your mark.</p>
+        </div>
+        <div class="event-grid" id="eventGrid"></div>
+      </div>
+    </section>
+
+    <section id="team" class="team-section">
+      <div class="wrap section team-layout">
+        <div><p class="eyebrow">02 / The people</p><h2>The minds<br />behind the meet.</h2><p class="team-intro">Bringing the energy, connecting the ideas, and making Cogniverge happen.</p></div>
+        <div>
+          <div class="team-group">
+            <h3 class="group-label">Faculty coordinators</h3>
+            <div class="people-grid">
+              <div class="person"><span class="person-initial">PT</span><div><h3>P.M.TULASI</h3><p>Faculty coordinator</p></div></div>
+              <div class="person"><span class="person-initial">MR</span><div><h3>M.RUDRAKUMAR</h3><p>Faculty coordinator</p></div></div>
+            </div>
+          </div>
+          <div class="team-group">
+            <h3 class="group-label">Student coordinators</h3>
+            <div class="people-grid">
+              <div class="person"><span class="person-initial">SJ</span><div><h3>K. SAI JATIN</h3><p>Convener</p></div></div>
+              <div class="person"><span class="person-initial">MN</span><div><h3>M. NANDINI</h3><p>Convener</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="register" class="registration-section">
+      <div class="wrap registration-inner">
+        <div><p class="eyebrow">03 / Be part of it</p><h2>Your next big idea starts here.</h2><p>Registration links will be announced soon.</p></div>
+        <div class="registration-status">Registration opening soon</div>
+      </div>
+    </section>
+
+    <section class="wrap section about-inner">
+      <h2>A convergence.<br />Not just a fest.</h2>
+      <p>Cogniverge brings together innovation, creativity, and technical talent at Mahatma Gandhi Institute of Technology. Organized by the Department of Emerging Technologies (CSE – AI &amp; ML), it’s a space to share ideas, challenge yourself, and connect with a community of curious minds.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a href="#home" aria-label="Back to Cogniverge home"><img src="assets/cogniverge-logo.jpeg" class="brand-image" alt="Cogniverge ’26" width="180" height="50" loading="lazy" /></a>
+      <p class="footer-copy">© 2026 Cogniverge. All rights reserved.<br />Code · Creativity · Intelligence</p>
+      <span class="social-pending">Instagram coming soon</span>
+    </div>
+  </footer>
+
+  <div class="dialog-overlay" id="dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle">
+    <div class="event-dialog">
+      <button class="btn btn-icon dialog-close" id="dialogClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <p class="eyebrow">Technical event</p>
+      <h2 id="dialogTitle"></h2>
+      <p class="dialog-desc" id="dialogDesc"></p>
+      <div class="dialog-org"><span class="organizer-label">Organized by</span><p id="dialogOrg"></p></div>
+      <p class="dialog-note">Event rules, schedule, and registration link will be announced soon.</p>
+      <button class="btn" disabled>Registration opening soon</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
